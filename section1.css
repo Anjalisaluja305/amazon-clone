@@ -1,0 +1,46 @@
+:root{
+    --major-bg-color:#131921;
+    --minor-bg-color:#ebeded;
+    --amazon-major-color:#febd68;
+}
+
+.section-1{
+    width: 100%;
+    height: auto;
+    background:url("https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/Aug/Apay/GW-PC-Deals-Unrec-3000._CB629506848_.jpg");
+    background-size: cover;
+    display: flex;
+}
+.section-1-container{
+    margin-top: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.section-1-column{
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+}
+.section-1-column img{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+}
+.section-1-column p{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #007185;
+}
+.section-1-column button{
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    background-color: var(--amazon-major-color);
+    padding: 8px;
+    border-radius: 8px;
+}
